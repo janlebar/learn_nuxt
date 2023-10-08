@@ -1,11 +1,20 @@
 <template>
-    <nav>
-      <ul>
-        <li><nuxt-link to="/">Home</nuxt-link></li>
-        <li><nuxt-link to="/about">About</nuxt-link></li>
-        <li><nuxt-link to="/contact">Contact</nuxt-link></li>
-        <!-- Add more menu items as needed -->
-      </ul>
+  <div>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <a class="navbar-brand">Navbar</a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </nav>
-  </template>
-  
+
+    <!-- Buttons -->
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <button class="btn btn-outline-success" type="button">Main button</button>
+        <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+      </form>
+    </nav>
+  </div>
+</template>
