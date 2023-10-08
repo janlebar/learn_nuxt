@@ -1,6 +1,7 @@
 <template>
   <div>
-      <h1>fgdgh</h1>
+    <Menu />
+    <Nuxt />
   </div>
 </template>
 
@@ -13,3 +14,4 @@
 <style lang="scss" scoped>
 
 </style>
+
