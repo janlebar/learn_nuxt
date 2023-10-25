@@ -55,7 +55,9 @@ export default {
       },
       imageList: [
         // Add your image data here
-        { id: 1, url: 'image1.jpg', alt: 'Image 1' },
+      { id: 1, url: '/assets/images/blender.jpg', alt: 'Image 1' },
+      { id: 2, url: '/images/image2.svg', alt: 'Image 2' },
+      { id: 3, url: '/images/image3.svg', alt: 'Image 3' },
         // Repeat for the other 11 images
       ]
     };
@@ -79,7 +81,7 @@ export default {
 }
 
 .image-section {
-  /* Add image section styles */
+  width: auto;
 }
 
 .contact-section {
