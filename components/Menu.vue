@@ -1,32 +1,6 @@
 
 
 
-    
-
-    <!-- Contact Section -->
-    <!-- <section id="contact" class="contact-section p-12">
-      <div class="contact-form max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
-        <h2 class="text-2xl font-bold text-center">Contact Us</h2>
-        <form @submit.prevent="submitForm">
-          <div class="form-group">
-            <label for="name" class="text-gray-700">Name</label>
-            <input type="text" id="name" v-model="formData.name" required class="w-full p-2 border border-gray-300 rounded-lg" />
-          </div>
-          <div class="form-group">
-            <label for="email" class="text-gray-700">Email</label>
-            <input type="email" id="email" v-model="formData.email" required class="w-full p-2 border border-gray-300 rounded-lg" />
-          </div>
-          <div class="form-group">
-            <label for="message" class="text-gray-700">Message</label>
-            <textarea id="message" v-model="formData.message" rows="4" required class="w-full p-2 border border-gray-300 rounded-lg"></textarea>
-          </div>
-          <button type="submit" class="btn bg-indigo-500 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 ease-in-out w-full mt-4">Submit</button>
-        </form>
-      </div>
-    </section> -->
-
-
-
 
 
 
@@ -71,7 +45,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section bg-red-500 p-8">
+    <section id="contact" class="contact-section p-8">
   <div class="max-w-md mx-auto">
     <div class="bg-white rounded-lg shadow-lg p-8">
       <h2 class="text-3xl font-bold text-blue-600 mb-4">Contact Us</h2>
