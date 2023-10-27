@@ -1,16 +1,12 @@
 
 
-
-
-
-
-
-
-
-
-
-
 <template>
+
+<div>
+    <Header />
+
+  </div>
+
   <div>
     <!-- Hero Section -->
     <section class="hero custom-red-background p-12">
@@ -73,7 +69,12 @@
 </template>
 
 <script>
+import Header from '~/components/Header.vue'
+
 export default {
+  components: {
+    Header,
+  },
   data() {
     return {
       formData: {
@@ -82,21 +83,24 @@ export default {
         message: ''
       },
       imageList: [
-        // Add your image data here
         { id: 1, url: 'image1.jpg', alt: 'Image 1' },
-        // Repeat for the other 11 images
+        // Add data for other images
       ]
     };
   },
   methods: {
     submitForm() {
-      // Handle form submission here
-      // You can use Axios or any other library to send the form data to a server
+      // Handle form submission here, e.g., using Axios
       console.log('Form submitted with data:', this.formData);
     }
   }
 };
 </script>
+
+
+
+
+
 
 <style scoped>
 /* Add your CSS styles here to style the sections, form, and images */
